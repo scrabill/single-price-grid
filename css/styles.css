@@ -1,3 +1,6 @@
-body {
-  background-color: pink;
+:root {
+  --cyan: hsl(179, 62%, 43%);
+  --yellow: hsl(71, 73%, 54%);
+  --light-gray: hsl(204, 43%, 93%);
+  --grey-blue: hsl(218, 22%, 67%)
 }
