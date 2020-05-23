@@ -100,3 +100,16 @@ button {
   border: none;
   font-weight:bold;
 }
+
+@media screen AND (max-width: 375px) {
+
+  main {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  section#first, section#second, section#third {
+    padding: 30px;
+    width: calc(100% - 60px);%;
+  }
+}
