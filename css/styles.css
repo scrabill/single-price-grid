@@ -4,3 +4,36 @@
   --light-gray: hsl(204, 43%, 93%);
   --grey-blue: hsl(218, 22%, 67%)
 }
+
+main {
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  flex-flow: row wrap;
+  /* justify-content: center; */
+  align-items: center;
+  align-content: center;
+  width: 600px;
+  margin: 0 auto;
+}
+
+section {
+  /* width: 400px;
+  flex: 1 1 400px;
+  flex-basis: 400px; */
+  min-width: 300px;
+}
+
+section.first {
+  flex-grow: 2;
+}
+
+section.second, section.third {
+  flex-grow: 1;
+}
+
+/*
+.apple {flex-grow: 1;}
+.orange {flex-grow: 1;}
+.grapes {flex-grow: 2;}
+.cherries {flex-grow: 1;} */
