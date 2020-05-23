@@ -5,6 +5,14 @@
   --grey-blue: hsl(218, 22%, 67%)
 }
 
+body {
+  background-color: var(--light-gray);
+  color: var(--grey-blue);
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  margin: 0 auto;
+}
+
 main {
   display: flex;
   flex-direction: row;
