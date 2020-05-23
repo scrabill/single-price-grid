@@ -25,7 +25,7 @@ main {
   align-items: center;
   align-content: center;
   width: 600px;
-  margin: 0 auto;
+  margin: 50 auto;
 }
 
 section {
@@ -35,11 +35,11 @@ section {
   min-width: 300px;
 }
 
-section.first {
+section#first {
   flex-grow: 2;
 }
 
-section.second, section.third {
+section#second, section#third {
   flex-grow: 1;
 }
 
