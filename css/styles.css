@@ -79,3 +79,11 @@ h2 {
   font-size: 2em;
   font-weight: bold;
 }
+
+/* List */
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0;
+}
