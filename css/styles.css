@@ -1,5 +1,6 @@
 :root {
   --cyan: hsl(179, 62%, 43%);
+  --light-cyan: hsl(179, 62%, 43%, 80%);
   --yellow: hsl(71, 73%, 54%);
   --light-gray: hsl(204, 43%, 93%);
   --grey-blue: hsl(218, 22%, 67%)
@@ -40,6 +41,18 @@ section.first {
 
 section.second, section.third {
   flex-grow: 1;
+}
+
+#second, #third {
+  color: #ffffff;
+}
+
+#second {
+  background-color: var(--cyan);
+}
+
+#third {
+  background-color: var(--light-cyan);
 }
 
 /* Text */
