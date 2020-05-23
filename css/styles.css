@@ -87,3 +87,15 @@ ul {
   margin: 0px;
   padding: 0;
 }
+
+/* Button */
+
+button {
+  border-radius: 7px;
+  color: #ffffff;
+  width: 100%;
+  height: 45px;
+  background-color: var(--yellow);
+  border: none;
+  font-weight:bold;
+}
